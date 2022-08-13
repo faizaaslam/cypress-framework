@@ -1,7 +1,7 @@
 export default class Generics {
 
     // Assertions & generic functions
-    
+
     assertElementByText = (selector, text)=>{
         cy.get(selector).should('have.text', text)
     }
