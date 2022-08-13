@@ -1,10 +1,13 @@
 {
   "name": "cypress_automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "This Cypress framework is developed using javascript, page object design pattern. For reporting: allure framework is used. ",
   "main": "index.js",
   "scripts": {
-    "open:cypress": "cypress open"
+    "test": "npx cypress run --env allure=true",
+    "test-headed": "npx cypress run --env allure-report=true --headed",
+    "open:cypress": "cypress open",
+    "report": "allure generate"
   },
   "repository": {
     "type": "git",

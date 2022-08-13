@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02584057-b350-4ab2-8f62-bfd255144209" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/helpers/generics.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/helpers/Generics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +45,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660306213277</updated>
       <workItem from="1660306216728" duration="2844000" />
-      <workItem from="1660382952747" duration="12687000" />
+      <workItem from="1660382952747" duration="14526000" />
+      <workItem from="1660402335936" duration="2830000" />
     </task>
     <servers />
   </component>
