@@ -1,10 +1,9 @@
 import LoginPage from "../../pages/LoginPage"
-let loginPage;
+const loginPage = new LoginPage();
 
 describe('Login Page',{ defaultCommandTimeout: 5000 }, () => {
 
   before(()=>{
-    loginPage = new LoginPage();
   });
 
   it('Launch website',() => {
