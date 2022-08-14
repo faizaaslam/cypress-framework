@@ -5,4 +5,4 @@ COPY ./cypress.config.js ./cypress.config.js
 COPY package.json ./package.json
 COPY package-lock.json ./package-lock.json
 RUN npm install
-RUN npm run test
+RUN npm run test-headed

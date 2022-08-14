@@ -1,7 +1,7 @@
 import LoginPage from "../../pages/LoginPage"
 const loginPage = new LoginPage();
 
-describe('Login Page',{ defaultCommandTimeout: 5000 }, () => {
+describe('Login Page',{ defaultCommandTimeout: 10000 }, () => {
 
   before(()=>{
   });
@@ -12,5 +12,13 @@ describe('Login Page',{ defaultCommandTimeout: 5000 }, () => {
 
   it('Enter invalid credentials', () => {
     loginPage.enterCredentials();
+  })
+
+  it('Click on login button', () => {
+    loginPage.clickOnLoginButton();
+  })
+
+  it('Verify the error message is displayed',()=>{
+    loginPage.verifyErrorMsg();
   })
 })

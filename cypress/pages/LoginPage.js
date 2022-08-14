@@ -8,6 +8,8 @@ export default class LoginPage{
 
     email = "input[name='email']";
     password = "input[name='password']";
+    loginButton = "//div[text()='Login']"
+    errorMsg = "//div[@class='ui negative message']//p";
 
     // Actions
     navigateToUrl(){
@@ -19,6 +21,13 @@ export default class LoginPage{
         helper.typeValue(this.email,loginData.email);
         helper.typeValue(this.password,loginData.password);
     }
+    clickOnLoginButton(){
+        cy.xpath(this.loginButton).click();
+    }
+    verifyErrorMsg(){
+        cy.xpath(this.errorMsg).should('have.text',loginData.errorMsg)
+    }
+
 
 }
 require('cypress-xpath');
