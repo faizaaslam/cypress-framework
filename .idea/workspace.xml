@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02584057-b350-4ab2-8f62-bfd255144209" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitIgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/tests/login.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/tests/login.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/login.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/login.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/helpers/Generics.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/helpers/Generics.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/e2e.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2DFsYOB1CGuf1ak8Xr3pn1SaXCs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +40,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Faiza\gitHubProjectsLearning\CypressFramework\cypress\e2e" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +58,7 @@
       <updated>1660306213277</updated>
       <workItem from="1660306216728" duration="2844000" />
       <workItem from="1660382952747" duration="14526000" />
-      <workItem from="1660402335936" duration="12352000" />
+      <workItem from="1660402335936" duration="21061000" />
     </task>
     <servers />
   </component>

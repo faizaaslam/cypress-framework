@@ -1,7 +1,6 @@
 export default class Generics {
 
-    // Assertions & generic functions
-
+    // generic functions
     assertElementVisibility = (selector)=>{
         cy.get(selector,{timeout: 10000}).should('be.visible');
     }

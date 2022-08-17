@@ -25,7 +25,7 @@ export default class LoginPage{
         cy.xpath(this.loginButton).click();
     }
     verifyErrorMsg(){
-        cy.xpath(this.errorMsg).should('have.text',loginData.errorMsg)
+         cy.xpath(this.errorMsg).should('have.text',loginData.errorMsg)
     }
 
 

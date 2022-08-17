@@ -1,3 +1,4 @@
 node_modules
 allure-report
 cypress/videos/*
+cypress/e2e/practice

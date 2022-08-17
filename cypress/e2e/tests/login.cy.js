@@ -3,9 +3,6 @@ const loginPage = new LoginPage();
 
 describe('Login Page',{ defaultCommandTimeout: 10000 }, () => {
 
-  before(()=>{
-  });
-
   it('Launch website',() => {
     loginPage.navigateToUrl();
   });
