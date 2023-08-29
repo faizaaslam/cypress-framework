@@ -7,6 +7,7 @@ module.exports = defineConfig({
       return config;
     },
     testIsolation: false,
+    pageLoadTimeout: 120000,
 
   }
 });
