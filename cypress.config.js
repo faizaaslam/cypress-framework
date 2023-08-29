@@ -6,5 +6,7 @@ module.exports = defineConfig({
       allureWriter(on, config);
       return config;
     },
+    testIsolation: false,
+
   }
 });

@@ -13,6 +13,7 @@ export default class LoginPage {
     // Actions
     navigateToUrl(){
         cy.visit(configData.baseUrl);
+        cy.wait(3000)
     }
 
     enterCredentials(){
