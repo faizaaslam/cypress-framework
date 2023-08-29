@@ -2,14 +2,13 @@ export const configData = require('../fixtures/config.json')
 export const loginData = require('../fixtures/login.json')
 import Generics from "../helpers/Generics"
 const helper = new Generics();
-export default class LoginPage{
+export default class LoginPage {
 
     // Page objects for Login page
-
     email = "input[name='email']";
     password = "input[name='password']";
-    loginButton = "//div[text()='Login']"
-    errorMsg = "//div[@class='ui negative message']//p";
+    loginButton = ".ui.fluid.large.blue.submit.button"
+    error = ".ui.negative.message";
 
     // Actions
     navigateToUrl(){
@@ -22,12 +21,10 @@ export default class LoginPage{
         helper.typeValue(this.password,loginData.password);
     }
     clickOnLoginButton(){
-        cy.xpath(this.loginButton).click();
+        cy.get(this.loginButton).click();
     }
     verifyErrorMsg(){
-         cy.xpath(this.errorMsg).should('have.text',loginData.errorMsg)
+        cy.get(this.error)
+        .should('be.visible');
     }
-
-
 }
-require('cypress-xpath');

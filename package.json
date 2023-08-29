@@ -13,16 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/faizaaslam/CypressFramework.git"
   },
-  "author": "Faiza",
+  "author": "Faiza A.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/faizaaslam/CypressFramework/issues"
   },
   "homepage": "https://github.com/faizaaslam/CypressFramework#readme",
+  
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.28.5",
     "allure-commandline": "^2.18.1",
-    "cypress": "^10.4.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress": "^12.17.4"
   }
 }
