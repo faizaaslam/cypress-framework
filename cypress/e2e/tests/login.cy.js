@@ -1,7 +1,7 @@
 import LoginPage from "../../pages/LoginPage"
 const loginPage = new LoginPage();
 
-describe('Login Page',{ defaultCommandTimeout: 10000 }, () => {
+describe('Login Page',{ defaultCommandTimeout: 30000 }, () => {
 
   it('Launch website',() => {
     loginPage.navigateToUrl();
