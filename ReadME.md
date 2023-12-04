@@ -16,7 +16,7 @@ Dockerfile is added to create an image of the framework & Github actions are use
     <li>Clone the project and open it in an editor (VSCode/Webstorm) </li>
     <li>Download and install the latest version of node</li>
 </ul>
-<h3>TesCases Execution<h3>
+<h3>TesCases Executions<h3>
  <li>In the terminal, to install packages/dependencies run:<br> 
     <code>npm install</code> 
 <li>To execute tests in headless mode, run: <Br>
