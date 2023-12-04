@@ -1,4 +1,4 @@
-<h1> Cypress Framework</h1>
+<h1> Automation with Cypress</h1>
 <p>
 Cypress is a JavaScript-based test automation solution used for modern web automation. It enables us to create web test automation scripts and enables frontend developers and test automation engineers to write web tests in the de-facto web language that is JavaScript for web test automation. It runs inside the browser.
 </p>
