@@ -1,4 +1,4 @@
-import LoginPage from "../../pages/LoginPage"
+import LoginPage from "../../pages/loginPage"
 const loginPage = new LoginPage();
 
 describe('Login Page',{ defaultCommandTimeout: 20000 }, () => {

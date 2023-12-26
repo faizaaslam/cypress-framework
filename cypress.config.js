@@ -8,6 +8,7 @@ module.exports = defineConfig({
     },
     testIsolation: false,
     pageLoadTimeout: 120000,
+    baseUrl: 'https://ui.cogmento.com/'
 
   }
 });

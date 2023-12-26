@@ -1,6 +1,5 @@
-export const configData = require('../fixtures/config.json')
 export const loginData = require('../fixtures/login.json')
-import Generics from "../helpers/Generics"
+import Generics from "../support/generics"
 const helper = new Generics();
 export default class LoginPage {
 
@@ -12,8 +11,7 @@ export default class LoginPage {
 
     // Actions
     navigateToUrl(){
-        cy.visit(configData.baseUrl);
-        cy.wait(3000)
+        cy.visit('/');
     }
 
     enterCredentials(){
